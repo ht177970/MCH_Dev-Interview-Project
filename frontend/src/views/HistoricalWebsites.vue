@@ -20,8 +20,20 @@
   </div>
 </template>
 
-<script>
-// TODO: Fetch websites data from API
+<script setup>
+import { ref, onMounted } from 'vue';
+
+const websites = ref([]);
+
+onMounted(async () => {
+  try {
+    const response = await fetch('https://mch-dev.userwei.com/api/websites');
+    if (!response.ok) throw new Error('response not ok');
+    websites.value = await response.json();
+  } catch (error) {
+    console.error('Error fetching data:', error);
+  }
+});
 </script>
 
 <style scoped>
