@@ -51,7 +51,10 @@ onMounted(async () => {
 }
 
 .websites-grid {
-  /* TODO: Add styles for a responsive grid layout */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 10px;
 }
 
 .website-card {
