@@ -71,8 +71,8 @@ onMounted(async () => {
 
 .website-image {
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  height: 200px;
+  object-fit: contain;
 }
 
 .website-info {
