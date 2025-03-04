@@ -3,7 +3,7 @@
     <header class="intro-header">
       <div class="profile-container">
         <div class="profile-image-container">
-          <img src="https://cdn.discordapp.com/attachments/688764458012508236/1346550066441097398/image.png?ex=67c897f9&is=67c74679&hm=615871e218f0f77108450b7695911fc0f91ac332a2cbc79205cdcd4396159611&" alt="曾彥熹" class="profile-image" />
+          <img src="/me.png" alt="曾彥熹" class="profile-image" />
         </div>
         <div class="intro-text">
           <h2>曾彥熹</h2>
