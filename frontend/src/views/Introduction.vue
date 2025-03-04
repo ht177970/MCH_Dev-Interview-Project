@@ -19,7 +19,7 @@
       <ul>
         <li v-for="award in awards" :key="award">{{ award }}</li>
       </ul>
-      <h3>小作品</h3>
+      <h3>小作品 </h3>
       <ul>
         <li v-for="project in projects" :key="project.name">
           <strong>{{ project.name }}</strong>: {{ project.description }}
