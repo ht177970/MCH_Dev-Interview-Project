@@ -56,7 +56,7 @@ const projects = [
   { name: "Snake", description: "高二用C++撰寫，主要練習物件導向寫法與SFML框架使用，單人貪食蛇遊戲。", link: "https://github.com/ht177970/ForSchool_Snake_v2" },
   { name: "RyanPlatformer", description: "高二用C++撰寫，主要練習物件導向寫法與SFML框架使用，單人跑酷遊戲。", link: "https://github.com/ht177970/RyanPlatformer" },
   { name: "TimeLapseRecorder", description: "高三用C#撰寫，為了錄製縮時而製作。" },
-  { name: "四人將棋", description: "升大一暑假用React撰寫前端，Python+Sonic撰寫後端伺服器，是基於高中同學寫的Vue改寫而來並做後續更新。", link: "Shogi" },
+  { name: "四人將棋", description: "升大一暑假用React撰寫前端，Python+Sanic撰寫後端伺服器，是基於高中同學寫的Vue改寫而來並做後續更新。", link: "Shogi" },
   { name: "RunTogether", description: "大二用C++撰寫，基於RyanPlatformer改成多人連線版，從Windows平台轉至Linux，多人競速跑酷遊戲。", link: "https://github.com/ht177970/RunTogeter" },
 ];
 
