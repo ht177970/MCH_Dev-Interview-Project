@@ -52,7 +52,7 @@ const awards = [
 
 const projects = [
   { name: "Discord bot", description: "國中用C#撰寫，用來管理訊息與播放音訊等趣味功能。" },
-  { name: "Anti-Unsent", description: "高一用Python+Java撰寫，設計包含PC端(Server)與Android端(Client)，利用Python爬蟲、Java與手機端更新資料。", link: "Anti-Unsent" },
+  { name: "Anti-Unsent", description: "高一用Python+Java撰寫，設計包含PC端(Server)與Android端(Client)，利用Python爬蟲、Java與手機端更新資料。", link: "Anti-Unsent.pdf" },
   { name: "Snake", description: "高二用C++撰寫，主要練習物件導向寫法與SFML框架使用，單人貪食蛇遊戲。", link: "https://github.com/ht177970/ForSchool_Snake_v2" },
   { name: "RyanPlatformer", description: "高三用C++撰寫，主要練習物件導向寫法與SFML框架使用，單人跑酷遊戲。", link: "https://github.com/ht177970/RyanPlatformer" },
   { name: "TimeLapseRecorder", description: "高三用C#撰寫，為了錄製縮時而製作。" },
