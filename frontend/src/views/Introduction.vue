@@ -15,9 +15,9 @@
     </header>
 
     <section class="about-section">
-      <h3>得獎紀錄</h3>
+      <h3>程式語言技能</h3>
       <ul>
-        <li v-for="award in awards" :key="award">{{ award }}</li>
+        <li v-for="skill in skills" :key="skill">{{ skill }}</li>
       </ul>
       <h3>小作品</h3>
       <ul>
@@ -26,9 +26,9 @@
           <a v-if="project.link" :href="project.link" target="_blank" rel="noopener noreferrer">(更多資訊)</a>
         </li>
       </ul>
-      <h3>程式語言技能</h3>
+      <h3>得獎紀錄</h3>
       <ul>
-        <li v-for="skill in skills" :key="skill">{{ skill }}</li>
+        <li v-for="award in awards" :key="award">{{ award }}</li>
       </ul>
     </section>
   </div>
@@ -53,14 +53,14 @@ const awards = [
 const projects = [
   { name: "Discord bot", description: "國中用C#撰寫，用來管理訊息與播放音訊等趣味功能。" },
   { name: "Anti-Unsent", description: "高一用Python+Java撰寫，設計包含PC端(Server)與Android端(Client)，利用Python爬蟲、Java與手機端更新資料。", link: "Anti-Unsent" },
-  { name: "Snake", description: "高二用C++撰寫，主要練習物件導向寫法與SFML框架使用。", link: "https://github.com/ht177970/ForSchool_Snake_v2" },
-  { name: "RyanPlatformer", description: "高三用C++撰寫，主要練習物件導向寫法與SFML框架使用。", link: "https://github.com/ht177970/RyanPlatformer" },
+  { name: "Snake", description: "高二用C++撰寫，主要練習物件導向寫法與SFML框架使用，單人貪食蛇遊戲。", link: "https://github.com/ht177970/ForSchool_Snake_v2" },
+  { name: "RyanPlatformer", description: "高三用C++撰寫，主要練習物件導向寫法與SFML框架使用，單人跑酷遊戲。", link: "https://github.com/ht177970/RyanPlatformer" },
   { name: "TimeLapseRecorder", description: "高三用C#撰寫，為了錄製縮時而製作。" },
   { name: "四人將棋", description: "大一用React撰寫前端，Python+Sonic撰寫後端伺服器，是基於高中同學寫的Vue改寫而來並做後續更新。", link: "Shogi" },
-  { name: "RunTogether", description: "大二用C++撰寫，基於高三的作品改成多人連線版，從Windows平台轉至Linux。", link: "https://github.com/ht177970/RunTogeter" },
+  { name: "RunTogether", description: "大二用C++撰寫，基於高三的作品改成多人連線版，從Windows平台轉至Linux，多人競速跑酷遊戲。", link: "https://github.com/ht177970/RunTogeter" },
 ];
 
-const skills = ["C++", "Java", "Python", "React"];
+const skills = ["C/C++/C#", "Java", "Python", "React"];
 </script>
 
 <style scoped>
